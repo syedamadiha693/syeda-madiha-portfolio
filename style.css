@@ -52,15 +52,17 @@
 
 
  .profile-img {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
+  width: 220px;
+  height: auto;
+
+  border-radius: 15px;   /* soft corners, not circle */
   margin-bottom: 20px;
+
   object-fit: contain;
-  background: white;
-  padding: 5px;
-  border: 4px solid white;
+
+  border: 3px solid white;
 }
+
 
 
 
